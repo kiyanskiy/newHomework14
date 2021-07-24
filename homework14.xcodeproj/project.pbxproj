@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,26 @@
 		A3BC431826AC0DDB00CC8354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BC431626AC0DDB00CC8354 /* LaunchScreen.storyboard */; };
 		A3BC432326AC0DDB00CC8354 /* homework14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC432226AC0DDB00CC8354 /* homework14Tests.swift */; };
 		A3BC432E26AC0DDB00CC8354 /* homework14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC432D26AC0DDB00CC8354 /* homework14UITests.swift */; };
+		A3BC434A26AC131500CC8354 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC433D26AC12D700CC8354 /* Realm.framework */; };
+		A3BC434B26AC131500CC8354 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC433D26AC12D700CC8354 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3BC434C26AC131500CC8354 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC433C26AC12D700CC8354 /* RealmSwift.framework */; };
+		A3BC434D26AC131500CC8354 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC433C26AC12D700CC8354 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3BC435026AC131E00CC8354 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC434F26AC131E00CC8354 /* Alamofire.xcframework */; };
+		A3BC435126AC131E00CC8354 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC434F26AC131E00CC8354 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3BC435526AC147C00CC8354 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC435426AC147C00CC8354 /* Human.swift */; };
+		A3BC435726AC149600CC8354 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC435626AC149600CC8354 /* NameViewController.swift */; };
+		A3BC435B26AC14D800CC8354 /* ToDoRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC435A26AC14D800CC8354 /* ToDoRealmViewController.swift */; };
+		A3BC435D26AC14F100CC8354 /* RealmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC435C26AC14F100CC8354 /* RealmTableViewCell.swift */; };
+		A3BC435F26AC150D00CC8354 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC435E26AC150D00CC8354 /* EntryViewController.swift */; };
+		A3BC436226AC154A00CC8354 /* ToDoCoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436126AC154A00CC8354 /* ToDoCoreDataViewController.swift */; };
+		A3BC436426AC156200CC8354 /* EntryCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436326AC156200CC8354 /* EntryCDViewController.swift */; };
+		A3BC436626AC157F00CC8354 /* CoreDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436526AC157F00CC8354 /* CoreDataTableViewCell.swift */; };
+		A3BC436B26AC15F100CC8354 /* RealmCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436A26AC15F100CC8354 /* RealmCharacters.swift */; };
+		A3BC436D26AC162600CC8354 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436C26AC162600CC8354 /* TableViewCell.swift */; };
+		A3BC436F26AC163E00CC8354 /* CharacterCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC436E26AC163E00CC8354 /* CharacterCodable.swift */; };
+		A3BC437126AC165100CC8354 /* CharactersLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC437026AC165100CC8354 /* CharactersLoader.swift */; };
+		A3BC437326AC177900CC8354 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC437226AC177900CC8354 /* CharacterViewController.swift */; };
+		A3BC437526AC1A0700CC8354 /* AllCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC437426AC1A0700CC8354 /* AllCharactersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A3BC434E26AC131500CC8354 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3BC435126AC131E00CC8354 /* Alamofire.xcframework in Embed Frameworks */,
+				A3BC434D26AC131500CC8354 /* RealmSwift.framework in Embed Frameworks */,
+				A3BC434B26AC131500CC8354 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A3BC430526AC0DDA00CC8354 /* homework14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BC430826AC0DDA00CC8354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +87,25 @@
 		A3BC432926AC0DDB00CC8354 /* homework14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BC432D26AC0DDB00CC8354 /* homework14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework14UITests.swift; sourceTree = "<group>"; };
 		A3BC432F26AC0DDB00CC8354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BC433C26AC12D700CC8354 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A3BC433D26AC12D700CC8354 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A3BC434326AC12ED00CC8354 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Carthage/Build/Realm.xcframework; sourceTree = "<group>"; };
+		A3BC434426AC12ED00CC8354 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Carthage/Build/RealmSwift.xcframework; sourceTree = "<group>"; };
+		A3BC434F26AC131E00CC8354 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		A3BC435426AC147C00CC8354 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		A3BC435626AC149600CC8354 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A3BC435A26AC14D800CC8354 /* ToDoRealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRealmViewController.swift; sourceTree = "<group>"; };
+		A3BC435C26AC14F100CC8354 /* RealmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTableViewCell.swift; sourceTree = "<group>"; };
+		A3BC435E26AC150D00CC8354 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		A3BC436126AC154A00CC8354 /* ToDoCoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCoreDataViewController.swift; sourceTree = "<group>"; };
+		A3BC436326AC156200CC8354 /* EntryCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCDViewController.swift; sourceTree = "<group>"; };
+		A3BC436526AC157F00CC8354 /* CoreDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewCell.swift; sourceTree = "<group>"; };
+		A3BC436A26AC15F100CC8354 /* RealmCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCharacters.swift; sourceTree = "<group>"; };
+		A3BC436C26AC162600CC8354 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A3BC436E26AC163E00CC8354 /* CharacterCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCodable.swift; sourceTree = "<group>"; };
+		A3BC437026AC165100CC8354 /* CharactersLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersLoader.swift; sourceTree = "<group>"; };
+		A3BC437226AC177900CC8354 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		A3BC437426AC1A0700CC8354 /* AllCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharactersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BC435026AC131E00CC8354 /* Alamofire.xcframework in Frameworks */,
+				A3BC434C26AC131500CC8354 /* RealmSwift.framework in Frameworks */,
+				A3BC434A26AC131500CC8354 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +143,7 @@
 				A3BC432126AC0DDB00CC8354 /* homework14Tests */,
 				A3BC432C26AC0DDB00CC8354 /* homework14UITests */,
 				A3BC430626AC0DDA00CC8354 /* Products */,
+				A3BC433B26AC12D700CC8354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +160,13 @@
 		A3BC430726AC0DDA00CC8354 /* homework14 */ = {
 			isa = PBXGroup;
 			children = (
+				A3BC436726AC15C000CC8354 /* 4 */,
+				A3BC436026AC152D00CC8354 /* 3 */,
 				A3BC430826AC0DDA00CC8354 /* AppDelegate.swift */,
 				A3BC430A26AC0DDA00CC8354 /* SceneDelegate.swift */,
 				A3BC430C26AC0DDA00CC8354 /* ViewController.swift */,
+				A3BC435926AC14A800CC8354 /* 2 */,
+				A3BC435326AC145C00CC8354 /* 1 */,
 				A3BC430E26AC0DDA00CC8354 /* Main.storyboard */,
 				A3BC431426AC0DDB00CC8354 /* Assets.xcassets */,
 				A3BC431626AC0DDB00CC8354 /* LaunchScreen.storyboard */,
@@ -131,6 +194,60 @@
 			path = homework14UITests;
 			sourceTree = "<group>";
 		};
+		A3BC433B26AC12D700CC8354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC434F26AC131E00CC8354 /* Alamofire.xcframework */,
+				A3BC434326AC12ED00CC8354 /* Realm.xcframework */,
+				A3BC434426AC12ED00CC8354 /* RealmSwift.xcframework */,
+				A3BC433D26AC12D700CC8354 /* Realm.framework */,
+				A3BC433C26AC12D700CC8354 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3BC435326AC145C00CC8354 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC435426AC147C00CC8354 /* Human.swift */,
+				A3BC435626AC149600CC8354 /* NameViewController.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		A3BC435926AC14A800CC8354 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC435A26AC14D800CC8354 /* ToDoRealmViewController.swift */,
+				A3BC435C26AC14F100CC8354 /* RealmTableViewCell.swift */,
+				A3BC435E26AC150D00CC8354 /* EntryViewController.swift */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		A3BC436026AC152D00CC8354 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC436126AC154A00CC8354 /* ToDoCoreDataViewController.swift */,
+				A3BC436326AC156200CC8354 /* EntryCDViewController.swift */,
+				A3BC436526AC157F00CC8354 /* CoreDataTableViewCell.swift */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		A3BC436726AC15C000CC8354 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC436A26AC15F100CC8354 /* RealmCharacters.swift */,
+				A3BC436C26AC162600CC8354 /* TableViewCell.swift */,
+				A3BC436E26AC163E00CC8354 /* CharacterCodable.swift */,
+				A3BC437026AC165100CC8354 /* CharactersLoader.swift */,
+				A3BC437426AC1A0700CC8354 /* AllCharactersViewController.swift */,
+				A3BC437226AC177900CC8354 /* CharacterViewController.swift */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +258,8 @@
 				A3BC430126AC0DDA00CC8354 /* Sources */,
 				A3BC430226AC0DDA00CC8354 /* Frameworks */,
 				A3BC430326AC0DDA00CC8354 /* Resources */,
+				A3BC434E26AC131500CC8354 /* Embed Frameworks */,
+				A3BC435226AC133200CC8354 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -256,15 +375,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3BC435226AC133200CC8354 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3BC430126AC0DDA00CC8354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BC437326AC177900CC8354 /* CharacterViewController.swift in Sources */,
+				A3BC436D26AC162600CC8354 /* TableViewCell.swift in Sources */,
+				A3BC436626AC157F00CC8354 /* CoreDataTableViewCell.swift in Sources */,
+				A3BC436226AC154A00CC8354 /* ToDoCoreDataViewController.swift in Sources */,
+				A3BC437526AC1A0700CC8354 /* AllCharactersViewController.swift in Sources */,
+				A3BC437126AC165100CC8354 /* CharactersLoader.swift in Sources */,
+				A3BC435B26AC14D800CC8354 /* ToDoRealmViewController.swift in Sources */,
 				A3BC431326AC0DDA00CC8354 /* homework14.xcdatamodeld in Sources */,
 				A3BC430D26AC0DDA00CC8354 /* ViewController.swift in Sources */,
+				A3BC436B26AC15F100CC8354 /* RealmCharacters.swift in Sources */,
+				A3BC435526AC147C00CC8354 /* Human.swift in Sources */,
+				A3BC436F26AC163E00CC8354 /* CharacterCodable.swift in Sources */,
 				A3BC430926AC0DDA00CC8354 /* AppDelegate.swift in Sources */,
+				A3BC436426AC156200CC8354 /* EntryCDViewController.swift in Sources */,
+				A3BC435F26AC150D00CC8354 /* EntryViewController.swift in Sources */,
 				A3BC430B26AC0DDA00CC8354 /* SceneDelegate.swift in Sources */,
+				A3BC435726AC149600CC8354 /* NameViewController.swift in Sources */,
+				A3BC435D26AC14F100CC8354 /* RealmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +597,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PA55RT68;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = homework14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +611,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -461,6 +622,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PA55RT68;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = homework14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +636,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
