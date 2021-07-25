@@ -1,29 +1,27 @@
 //
 //  NameViewController.swift
-//  homework14
+//  homework14Git
 //
-//  Created by Oleksandr Kiianskyi on 24.07.2021.
+//  Created by Oleksandr Kiianskyi on 16.07.2021.
 //
-
 import UIKit
 
 class NameViewController: UIViewController {
-
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var surnameTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        nameTextField.text = Human.shared.name
+        surnameTextField.text = Human.shared.surname
+    }
+    @IBAction func didChangeName(_ sender: Any) {
+        Human.shared.name = nameTextField.text
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didChangeSurname(_ sender: Any) {
+        Human.shared.surname = surnameTextField.text
     }
-    */
-
 }
