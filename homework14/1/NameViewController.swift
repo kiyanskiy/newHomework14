@@ -25,3 +25,4 @@ class NameViewController: UIViewController {
         Human.shared.surname = surnameTextField.text
     }
 }
+
